@@ -19,6 +19,17 @@ ul {
   margin: 0 auto;
 }
 
+.white {
+  color: white;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
 
 nav {
   position: fixed;
@@ -29,9 +40,18 @@ nav {
 }
 
 .main-nav {
-  display: flex;
   justify-content: space-between;
   height: 48px;
+}
+
+.nav-list {
+  display: none;
+  width: 80%;
+}
+
+.nav-list ul li {
+  display: inline-block;
+  padding-right: 10px;
 }
 
 .main-nav i {
@@ -65,14 +85,12 @@ nav {
 }
 
 .cover {
-  position: relative;
   height: 192px;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
   padding: 15px;
   margin: 8px 0;
-  color: white;
 }
 
 .world-top-img {
@@ -100,9 +118,12 @@ nav {
   padding-right: 10px;
 }
 
+#share {
+  padding-right: 0;
+}
+
 .title-news {
   font-size: 28px;
-  color: #ff4422;
 }
 
 .latest-news {
@@ -201,13 +222,7 @@ nav {
 }
 
 .indexco {
-  color: #ff4422;
   margin: .5em 0;
-}
-
-.funding-list {
-  color: #ff4422;
-
 }
 
 .funding-list ul li {
@@ -221,7 +236,6 @@ nav {
 
 .orange {
   background-color: #f44120;
-  position: relative;
 }
 
 .orange h4 {
@@ -271,7 +285,7 @@ nav {
   padding-top: 1.3em;
 }
 
-.category-info{
+.category-info {
   padding: 10px;
 }
 
@@ -285,7 +299,7 @@ nav {
   height: 96px;
 }
 
-.category-list ul{
+.category-list ul {
   padding-left: 1em;
 }
 
@@ -304,7 +318,6 @@ nav {
 }
 
 .deals-header {
-  display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin: 1.5em 0;
@@ -314,6 +327,7 @@ footer {
   color: #aaaaaa;
   font-size: 13px;
 }
+
 footer ul li {
   display: inline;
   margin: 0 .2em;
@@ -323,15 +337,15 @@ footer ul li {
   margin-bottom: 25px;
 }
 
-.soc-icons li{
+.soc-icons li {
   font-size: 16px;
-  color:white;
+  color: white;
   background-color: #333333;
   border-radius: 50%;
   padding: .5rem;
 }
+
 .ftr-social {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -355,7 +369,7 @@ footer ul li {
 }
 
 .gear-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_82989e-368x276.png); 
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_82989e-368x276.png);
 }
 
 .tech-img {
@@ -380,4 +394,45 @@ footer ul li {
 
 .distract-img {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-25-at-12.50.26-368x276.png);
+}
+
+@media only screen and (min-width: 760px) {
+
+  .ham-menu {
+    display: none;
+  }
+
+  .nav-list {
+    display: inline-block;
+  }
+
+  .nav-hid {
+    display: none;
+  }
+
+  #top-img {
+    height: 468px;
+    font-size: 1.8em;
+  }
+
+  .flextop {
+    flex-grow: 2;
+  }
+
+  .top-articles {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .top-sub {
+    height: 100%;
+    font-size: .65em;
+  }
+
+  .flexpad {
+    height: 230px;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 10px;
+  }
 }

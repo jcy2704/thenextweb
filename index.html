@@ -12,9 +12,32 @@
 
 <body>
   <nav>
-    <div class="main-nav">
-      <div class="logo">
-        <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="tnw logo"></a>
+    <div class="main-nav flex">
+      <div>
+        <a href="#"><img class="logo" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
+            alt="tnw logo"></a>
+
+        <div class="nav-list">
+          <ul>
+            <li>
+              <a href="#">LATEST</a>
+            </li>
+            <li>
+              <a href="">HARD FORK</a>
+            </li>
+            <li>
+              <a href="#">PLUGGED</a>
+            </li>
+            <li>
+              <a href="#">READ ME</a>
+            </li>
+            <li>
+              <a href="#">GROWTH QUARTERS</a>
+            </li>
+            <li><a  class="nav-hid">SHIFT</a></li>
+            <li><a  class="nav-hid">NEURAL</a></li>
+          </ul>
+        </div>
       </div>
       <div class="nav-menu">
         <a class="search-icon" href="#">
@@ -33,63 +56,67 @@
 
   <main class="main">
     <section class="top-articles sm-container">
-      <article class="cover world-top-img">
-        <header class="header">
-          <h5>
-            <a href="#">World</a>
-          </h5>
-          <h2>
-            <a href="#">India plans to earmark $4.6B to Invest in EV battery makers</a>
-          </h2>
-          <ul>
-            <li>
-              <a href="#">by Mathew Beedham</a>
-            </li>
-            <li>1 hour ago</li>
-            <li><i class="fas fa-share-alt"></i> 8</li>
-          </ul>
-        </header>
-      </article>
+      <div class="flextop">
+        <article id="top-img" class="cover white pos-rel world-top-img">
+          <header class="header">
+            <h5>
+              <a href="#">World</a>
+            </h5>
+            <h2>
+              <a href="#">India plans to earmark $4.6B to Invest in EV battery makers</a>
+            </h2>
+            <ul>
+              <li>
+                <a href="#">by Mathew Beedham</a>
+              </li>
+              <li>1 hour ago</li>
+              <li id="share"><i class="fas fa-share-alt"></i> 8</li>
+            </ul>
+          </header>
+        </article>
+      </div>
+      <div class="flexpad">
+        <article class="cover top-sub white pos-rel cover1">
+          <header class="header">
+            <h5>
+              <a href="#">Tech</a>
+            </h5>
+            <h2>
+              <a href="#">Physicist says you can time travel all you want, but the universe won’t let you change
+                things</a>
+            </h2>
+            <ul>
+              <li>
+                <a href="#">by Tristen Greene</a>
+              </li>
+              <li>1 hour ago</li>
+              <li id="share"><i class="fas fa-share-alt"></i> 8</li>
+            </ul>
+          </header>
+        </article>
 
-      <article class="cover cover1">
-        <header class="header">
-          <h5>
-            <a href="#">Tech</a>
-          </h5>
-          <h2>
-            <a href="#">Physicist says you can time travel all you want, but the universe won’t let you change things</a>
-          </h2>
-          <ul>
-            <li>
-              <a href="#">by Tristen Greene</a>
-            </li>
-            <li>1 hour ago</li>
-            <li><i class="fas fa-share-alt"></i> 8</li>
-          </ul>
-        </header>
-      </article>
-
-      <article class="cover cover2">
-        <header class="header">
-          <h5>
-            <a href="#">World</a>
-          </h5>
-          <h2>
-            <a href="#">Is COVID-19 becoming milder? Here’s everything we know so far</a>
-          </h2>
-          <ul>
-            <li>
-              <a href="#">by The Conversation</a>
-            </li>
-            <li>1 hour ago</li>
-            <li><i class="fas fa-share-alt"></i> 8</li>
-          </ul>
-        </header>
-      </article>
+        <article class="cover top-sub white pos-rel cover2">
+          <header class="header">
+            <h5>
+              <a href="#">World</a>
+            </h5>
+            <h2>
+              <a href="#">Is COVID-19 becoming milder? Here’s everything we know so far</a>
+            </h2>
+            <ul>
+              <li>
+                <a href="#">by The Conversation</a>
+              </li>
+              <li>1 hour ago</li>
+              <li id="share"><i class="fas fa-share-alt"></i> 8</li>
+            </ul>
+          </header>
+        </article>
+      </div>
     </section>
 
     <section class="wrapper">
-      <h2 class="title-news">Latest news ></h2>
+      <h2 class="title-news c-orange">Latest news ></h2>
       <div class="latest-news">
 
         <article class="latest-articles">
@@ -188,13 +215,13 @@
       </div>
 
       <div class="funding">
-        <h2 class="indexco">
+        <h2 class="indexco c-orange">
           <a href="">
             <b>Latest funding rounds on Index.co ></b>
           </a>
         </h2>
 
-        <div class="funding-list">
+        <div class="funding-list c-orange">
           <ul>
             <li><a href="">See more</a></li>
             <li><a href="">Get updates by email</a></li>
@@ -205,7 +232,7 @@
         <div class="companies">
           <div class="comp-cont">
             <a href="">
-              <div class="orange">
+              <div class="orange pos-rel">
                 <img class="company-logo"
                   src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F775688252019924992%2F7jJO3joD.jpg&signature=8e3b426e1ed9e113bbde6b7cfeaff335"
                   alt="">
@@ -237,7 +264,7 @@
         <div class="companies">
           <div class="comp-cont">
             <a href="">
-              <div class="orange">
+              <div class="orange pos-rel">
                 <img class="company-logo"
                   src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1113791903755980800%2FpTey_ju_.png&signature=f1e970ac1b6f2b3e03bfcf65c6b74c6c"
                   alt="">
@@ -267,10 +294,10 @@
         <div class="companies">
           <div class="comp-cont">
             <a href="">
-              <div class="orange">
+              <div class="orange pos-rel">
                 <img class="company-logo"
-                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1186271879692091395%2Fj-KkjXxL.jpg&signature=c64adaffc9b8b55baad195d32bd5a07f"
-                alt="">
+                  src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1186271879692091395%2Fj-KkjXxL.jpg&signature=c64adaffc9b8b55baad195d32bd5a07f"
+                  alt="">
                 <h4>GOAT</h4>
               </div>
               <div class="lorange">
@@ -295,383 +322,384 @@
         </div>
       </div>
 
-        <div class="categories">
-          <article>
-            <h2 class="c-orange">Hard Fork ></h2>
-            <div class="cover hf-img">
-              <header class="header">
-                <h5>
-                  <a href="#">MOST POPULAR</a>
-                </h5>
-                <h2>
-                  <a href="#">Satoshi Nakaboto: 'Winklevosses launch their bitcoin exchange in the UK'</a>
-                </h2>
-                <ul>
-                  <li>
-                    <a href="#">Satoshi Nakaboto</a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </header>
-            </div>
-
-            <div class="category-cont">
-              <a href="#">
-                <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
-              </a>
-              <div class="category-info c-orange">
-                <p>Latest</p>
-                <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
-              </div>
-            </div>
-
-            <div class="category-list">
+      <div class="categories">
+        <article>
+          <h2 class="c-orange">Hard Fork ></h2>
+          <div class="cover white pos-rel white hf-img">
+            <header class="header">
+              <h5>
+                <a href="#">MOST POPULAR</a>
+              </h5>
+              <h2>
+                <a href="#">Satoshi Nakaboto: 'Winklevosses launch their bitcoin exchange in the UK'</a>
+              </h2>
               <ul>
-                <li><a href="">Why Ai writing assistants are the next generation</a></li>
-                <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
-                <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
-                <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
-                <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+                <li>
+                  <a href="#">Satoshi Nakaboto</a>
+                </li>
+                <li></li>
+                <li></li>
               </ul>
-            </div>
-          </article>
-
-          <article>
-            <h2 class="c-orange">Apps ></h2>
-            <div class="cover apps-img">
-              <header class="header">
-                <h5>
-                  <a href="#">MOST POPULAR</a>
-                </h5>
-                <h2>
-                  <a href="#">Adobe is making it less of a nightmare to read PDFs on your phone</a>
-                </h2>
-                <ul>
-                  <li>
-                    <a href="#">Mix</a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </header>
-            </div>
-
-            <div class="category-cont">
-              <a href="#">
-                <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
-              </a>
-              <div class="category-info c-orange">
-                <p>Latest</p>
-                <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
-              </div>
-            </div>
-
-            <div class="category-list">
-              <ul>
-                <li><a href="">Why Ai writing assistants are the next generation</a></li>
-                <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
-                <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
-                <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
-                <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
-              </ul>
-            </div>
-          </article>
-
-          <article>
-            <h2 class="c-orange">Gear ></h2>
-            <div class="cover gear-img">
-              <header class="header">
-                <h5>
-                  <a href="#">MOST POPULAR</a>
-                </h5>
-                <h2>
-                  <a href="#">Amazon's new Echo is a cute glowing orb with faster response times</a>
-                </h2>
-                <ul>
-                  <li>
-                    <a href="#">Napier Lopez</a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </header>
-            </div>
-
-            <div class="category-cont">
-              <a href="#">
-                <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
-              </a>
-              <div class="category-info c-orange">
-                <p>Latest</p>
-                <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
-              </div>
-            </div>
-
-            <div class="category-list">
-              <ul>
-                <li><a href="">Why Ai writing assistants are the next generation</a></li>
-                <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
-                <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
-                <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
-                <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
-              </ul>
-            </div>
-          </article>
-
-          <article>
-            <h2 class="c-orange">Tech ></h2>
-            <div class="cover tech-img">
-              <header class="header">
-                <h5>
-                  <a href="#">MOST POPULAR</a>
-                </h5>
-                <h2>
-                  <a href="#">GPT-3's Bigorty is exactly why devs shouldn't use the internet to train AI</a>
-                </h2>
-                <ul>
-                  <li>
-                    <a href="#">Tristan Greene</a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </header>
-            </div>
-
-            <div class="category-cont">
-              <a href="#">
-                <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
-              </a>
-              <div class="category-info c-orange">
-                <p>Latest</p>
-                <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
-              </div>
-            </div>
-
-            <div class="category-list">
-              <ul>
-                <li><a href="">Why Ai writing assistants are the next generation</a></li>
-                <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
-                <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
-                <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
-                <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
-              </ul>
-            </div>
-          </article>
-
-          <article>
-            <h2 class="c-orange">Creative ></h2>
-            <div class="cover creative-img">
-              <header class="header">
-                <h5>
-                  <a href="#">MOST POPULAR</a>
-                </h5>
-                <h2>
-                  <a href="#">This real-world multiplayer game lets you spend other people's money - really</a>
-                </h2>
-                <ul>
-                  <li>
-                    <a href="#">Mix</a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </header>
-            </div>
-
-            <div class="category-cont">
-              <a href="#">
-                <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
-              </a>
-              <div class="category-info c-orange">
-                <p>Latest</p>
-                <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
-              </div>
-            </div>
-
-            <div class="category-list">
-              <ul>
-                <li><a href="">Why Ai writing assistants are the next generation</a></li>
-                <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
-                <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
-                <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
-                <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
-              </ul>
-            </div>
-          </article>
-
-          <article>
-            <h2 class="c-orange">Podium ></h2>
-            <div class="cover podium-img">
-              <header class="header">
-                <h5>
-                  <a href="#">MOST POPULAR</a>
-                </h5>
-                <h2>
-                  <a href="#">Mixed reality is perfect for our innate multitasking habits</a>
-                </h2>
-                <ul>
-                  <li>
-                    <a href="#">Jared Ficklin</a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </header>
-            </div>
-
-            <div class="category-cont">
-              <a href="#">
-                <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
-              </a>
-              <div class="category-info c-orange">
-                <p>Latest</p>
-                <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
-              </div>
-            </div>
-
-            <div class="category-list">
-              <ul>
-                <li><a href="">Why Ai writing assistants are the next generation</a></li>
-                <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
-                <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
-                <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
-                <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
-              </ul>
-            </div>
-          </article>
-
-          <article>
-            <h2 class="c-orange">Insights ></h2>
-            <div class="cover insights-img">
-              <header class="header">
-                <h5>
-                  <a href="#">MOST POPULAR</a>
-                </h5>
-                <h2>
-                  <a href="#">Why AI writing assistants are the next generation of style guides</a>
-                </h2>
-                <ul>
-                  <li>
-                    <a href="#">Jennifer Schmich</a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </header>
-            </div>
-
-            <div class="category-cont c-orange">
-              <a href="#">
-                <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
-              </a>
-              <div class="category-info">
-                <p>Latest</p>
-                <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
-              </div>
-            </div>
-
-            <div class="category-list">
-              <ul>
-                <li><a href="">Why Ai writing assistants are the next generation</a></li>
-                <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
-                <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
-                <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
-                <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
-              </ul>
-            </div>
-          </article>
-
-          <article>
-            <h2 class="c-orange">Launch ></h2>
-            <div class="cover launch-img">
-              <header class="header">
-                <h5>
-                  <a href="#">MOST POPULAR</a>
-                </h5>
-                <h2>
-                  <a href="#">Lucid unveils the Air, it's luxury EV with up to 517-miles of range costing as much as $169k</a>
-                </h2>
-                <ul>
-                  <li>
-                    <a href="#">by Mathew</a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </header>
-            </div>
-
-            <div class="category-cont c-orange">
-              <a href="#">
-                <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
-              </a>
-              <div class="category-info">
-                <p>Latest</p>
-                <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
-              </div>
-            </div>
-
-            <div class="category-list">
-              <ul>
-                <li><a href="">Why Ai writing assistants are the next generation</a></li>
-                <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
-                <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
-                <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
-                <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
-              </ul>
-            </div>
-          </article>
-
-          <article>
-            <h2 class="c-orange">Distract ></h2>
-            <div class="cover distract-img">
-              <header class="header">
-                <h5>
-                  <a href="#">MOST POPULAR</a>
-                </h5>
-                <h2>
-                  <a href="#">Call of Duty: Warzone's new subway is everything we hoped the cargo train would be</a>
-                </h2>
-                <ul>
-                  <li>
-                    <a href="#">Mix</a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </header>
-            </div>
-
-            <div class="category-cont c-orange">
-              <a href="#">
-                <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
-              </a>
-              <div class="category-info">
-                <p>Latest</p>
-                <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
-              </div>
-            </div>
-
-            <div class="category-list">
-              <ul>
-                <li><a href="">Why Ai writing assistants are the next generation</a></li>
-                <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
-                <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
-                <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
-                <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
-              </ul>
-            </div>
-          </article>
-
-        </div>
-        
-        <div class="latest-news">
-          <div class="deals-header">
-            <h2 class="c-orange">Latest Deals</h2>
-            <a class="c-orange" href="">See All Deals</a>
+            </header>
           </div>
+
+          <div class="category-cont">
+            <a href="#">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
+            </a>
+            <div class="category-info c-orange">
+              <p>Latest</p>
+              <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
+            </div>
+          </div>
+
+          <div class="category-list">
+            <ul>
+              <li><a href="">Why Ai writing assistants are the next generation</a></li>
+              <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
+              <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
+              <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
+              <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="c-orange">Apps ></h2>
+          <div class="cover white pos-rel apps-img">
+            <header class="header">
+              <h5>
+                <a href="#">MOST POPULAR</a>
+              </h5>
+              <h2>
+                <a href="#">Adobe is making it less of a nightmare to read PDFs on your phone</a>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">Mix</a>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="category-cont">
+            <a href="#">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
+            </a>
+            <div class="category-info c-orange">
+              <p>Latest</p>
+              <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
+            </div>
+          </div>
+
+          <div class="category-list">
+            <ul>
+              <li><a href="">Why Ai writing assistants are the next generation</a></li>
+              <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
+              <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
+              <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
+              <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="c-orange">Gear ></h2>
+          <div class="cover white pos-rel gear-img">
+            <header class="header">
+              <h5>
+                <a href="#">MOST POPULAR</a>
+              </h5>
+              <h2>
+                <a href="#">Amazon's new Echo is a cute glowing orb with faster response times</a>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">Napier Lopez</a>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="category-cont">
+            <a href="#">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
+            </a>
+            <div class="category-info c-orange">
+              <p>Latest</p>
+              <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
+            </div>
+          </div>
+
+          <div class="category-list">
+            <ul>
+              <li><a href="">Why Ai writing assistants are the next generation</a></li>
+              <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
+              <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
+              <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
+              <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="c-orange">Tech ></h2>
+          <div class="cover white pos-rel tech-img">
+            <header class="header">
+              <h5>
+                <a href="#">MOST POPULAR</a>
+              </h5>
+              <h2>
+                <a href="#">GPT-3's Bigorty is exactly why devs shouldn't use the internet to train AI</a>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">Tristan Greene</a>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="category-cont">
+            <a href="#">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
+            </a>
+            <div class="category-info c-orange">
+              <p>Latest</p>
+              <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
+            </div>
+          </div>
+
+          <div class="category-list">
+            <ul>
+              <li><a href="">Why Ai writing assistants are the next generation</a></li>
+              <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
+              <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
+              <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
+              <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="c-orange">Creative ></h2>
+          <div class="cover white pos-rel creative-img">
+            <header class="header">
+              <h5>
+                <a href="#">MOST POPULAR</a>
+              </h5>
+              <h2>
+                <a href="#">This real-world multiplayer game lets you spend other people's money - really</a>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">Mix</a>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="category-cont">
+            <a href="#">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
+            </a>
+            <div class="category-info c-orange">
+              <p>Latest</p>
+              <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
+            </div>
+          </div>
+
+          <div class="category-list">
+            <ul>
+              <li><a href="">Why Ai writing assistants are the next generation</a></li>
+              <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
+              <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
+              <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
+              <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="c-orange">Podium ></h2>
+          <div class="cover white pos-rel podium-img">
+            <header class="header">
+              <h5>
+                <a href="#">MOST POPULAR</a>
+              </h5>
+              <h2>
+                <a href="#">Mixed reality is perfect for our innate multitasking habits</a>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">Jared Ficklin</a>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="category-cont">
+            <a href="#">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
+            </a>
+            <div class="category-info c-orange">
+              <p>Latest</p>
+              <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
+            </div>
+          </div>
+
+          <div class="category-list">
+            <ul>
+              <li><a href="">Why Ai writing assistants are the next generation</a></li>
+              <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
+              <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
+              <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
+              <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="c-orange">Insights ></h2>
+          <div class="cover white pos-rel insights-img">
+            <header class="header">
+              <h5>
+                <a href="#">MOST POPULAR</a>
+              </h5>
+              <h2>
+                <a href="#">Why AI writing assistants are the next generation of style guides</a>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">Jennifer Schmich</a>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="category-cont c-orange">
+            <a href="#">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
+            </a>
+            <div class="category-info">
+              <p>Latest</p>
+              <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
+            </div>
+          </div>
+
+          <div class="category-list">
+            <ul>
+              <li><a href="">Why Ai writing assistants are the next generation</a></li>
+              <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
+              <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
+              <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
+              <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="c-orange">Launch ></h2>
+          <div class="cover white pos-rel launch-img">
+            <header class="header">
+              <h5>
+                <a href="#">MOST POPULAR</a>
+              </h5>
+              <h2>
+                <a href="#">Lucid unveils the Air, it's luxury EV with up to 517-miles of range costing as much as
+                  $169k</a>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">by Mathew</a>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="category-cont c-orange">
+            <a href="#">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
+            </a>
+            <div class="category-info">
+              <p>Latest</p>
+              <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
+            </div>
+          </div>
+
+          <div class="category-list">
+            <ul>
+              <li><a href="">Why Ai writing assistants are the next generation</a></li>
+              <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
+              <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
+              <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
+              <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="c-orange">Distract ></h2>
+          <div class="cover white pos-rel distract-img">
+            <header class="header">
+              <h5>
+                <a href="#">MOST POPULAR</a>
+              </h5>
+              <h2>
+                <a href="#">Call of Duty: Warzone's new subway is everything we hoped the cargo train would be</a>
+              </h2>
+              <ul>
+                <li>
+                  <a href="#">Mix</a>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="category-cont c-orange">
+            <a href="#">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/nikolastonk.jpg" alt="">
+            </a>
+            <div class="category-info">
+              <p>Latest</p>
+              <h3>The markest speaks: Nikola stock down 80% since all time high</h3>
+            </div>
+          </div>
+
+          <div class="category-list">
+            <ul>
+              <li><a href="">Why Ai writing assistants are the next generation</a></li>
+              <li><a href="">Satoshi Nakaboto: 'Winklevosses launch their Bitcoin Exchange in the UL'</a></li>
+              <li><a href="">How Cognitive biases can help (and hurt) your business</a></li>
+              <li><a href="">The Market speaks: Nikola stock down 80% since all time high</a></li>
+              <li><a href="">That task shouldn't take more than an hour, most likely less than 30 minutes...</a></li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="latest-news">
+        <div class="deals-header flex">
+          <h2 class="c-orange">Latest Deals</h2>
+          <a class="c-orange" href="">See All Deals</a>
+        </div>
         <article class="latest-articles">
           <div class="latest-img">
             <a class="latest-art-img" href="#"></a>
@@ -772,7 +800,7 @@
   </main>
 
   <footer>
-    <div class="ftr-social">
+    <div class="ftr-social flex">
       <ul class="soc-icons">
         <li><i class="fab fa-facebook-square"></i></li>
         <li><i class="fab fa-twitter"></i></li>
