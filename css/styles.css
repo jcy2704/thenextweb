@@ -18,6 +18,7 @@ ul {
   margin: 0 auto;
 }
 
+
 nav {
   position: fixed;
   top: 0rem;
@@ -48,6 +49,11 @@ nav {
 
 .top-articles {
   margin-top: 80px;
+}
+
+.wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .cover {
@@ -141,4 +147,27 @@ nav {
 .bottom-sec {
   border-top: 1px solid #f44120;
   padding: 15px;
+}
+
+.category-info{
+  padding: 10px;
+}
+
+.category-cont {
+  background-color: #fff4f2;
+}
+
+.category-cont img {
+  float: right;
+  width: 96px;
+  height: 96px;
+}
+
+.category-list ul{
+  list-style-type: disc;
+  padding-left: 1em;
+}
+.category-list li {
+  border-bottom: 1px solid lightgray;
+  padding: 1rem 0;
 }
