@@ -40,15 +40,22 @@ nav {
   height: 100%;
 }
 
+.logo {
+  background-color: black;
+  width: 106px;
+  padding: 15px;
+}
+
 .tnw-conf {
-  background-color: yellow;
+  background-color: #ffdd33;
   font-size: 12px;
-  text-align: center;
+  text-align: left;
   padding: 20px 10px;
 }
 
 .top-articles {
   margin-top: 80px;
+  padding-bottom: 45px;
 }
 
 .wrapper {
@@ -59,12 +66,36 @@ nav {
 .cover {
   position: relative;
   height: 192px;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .1)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/modi-india-evs-battery-huge-4.6billion-billion.-money-incentives-796x448.jpeg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/modi-india-evs-battery-huge-4.6billion-billion.-money-incentives-796x448.jpeg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  padding: 20px;
-  margin: 10px 0;
+  padding: 15px;
+  margin: 8px 0;
+  color: white;
+}
+
+.cover1 {
+  position: relative;
+  height: 192px;
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/quantum_generic-796x417.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  padding: 15px;
+  margin: 8px 0;
+  color: white;
+}
+
+.cover2 {
+  position: relative;
+  height: 192px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-27-796x417.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  padding: 15px;
+  margin: 8px 0;
   color: white;
 }
 
@@ -75,9 +106,19 @@ nav {
 
 .header ul li {
   display: inline;
+  font-size: 12px;
+  padding-right: 10px;
 }
 
+.title-news {
+  font-size: 28px;
+  color: #ff4422;
+}
 
+.latest-news {
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
 
 .latest-img {
   float: left;
@@ -85,7 +126,7 @@ nav {
   height: 75px;
 }
 
-.latest-img a {
+.latest-art-img {
   display: block;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/windows-xp-boot-e1601042921776.png);
   background-size: cover;
@@ -94,18 +135,82 @@ nav {
   width: 100%;
 }
 
+.latest-art-img1 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Metal-Gear-Solid-516x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img2 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/TNW-Dotted-Sign-540x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img3 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/27162728588_a488cbc4f9_k-405x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img4 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-26-516x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img5 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-25-at-12.50.26-540x250.png);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img6 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/zeroaavia-plane-hydrogen-flight-ev-travel-airplane-aerospace-480x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
 .latest-cont {
-  padding-left: 5em;
+  padding-left: 5.5em;
+  font-size: 15px;
+  line-height: 1.125rem;
+}
+
+.latest-cont ul li {
+  display: inline;
+  font-size: 12px;
+  padding-right: 5px;
 }
 
 .latest-articles {
+  height: 85px;
   padding-bottom: 1em;
 }
+
+.latest-news
 
 .comp-cont {
   width: 330px;
   margin: 25px auto;
-
 }
 
 .orange {
