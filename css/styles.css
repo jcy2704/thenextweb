@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.sm-container {
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed;
+  top: 0rem;
+  z-index: 1;
+  background-color: white;
+  width: 100vw;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+}
+
+.main-nav i {
+  font-size: 24px;
+  padding: 10px;
+  border-left: 1px solid grey;
+  height: 100%;
+}
+
+.tnw-conf {
+  background-color: yellow;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.top-articles {
+  margin-top: 80px;
+}
+
+.cover {
+  position: relative;
+  height: 192px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1) , rgba(0, 0, 0, .1)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/modi-india-evs-battery-huge-4.6billion-billion.-money-incentives-796x448.jpeg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  padding: 20px;
+  margin: 10px 0;
+  color: white;
+}
+
+.header {
+  position: absolute;
+  bottom: 15px;
+}
+
+.header ul li {
+  display: inline;
+}
+
+
+
+.latest-img {
+  float: left;
+  width: 75px;
+  height: 75px;
+}
+
+.latest-img a {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/windows-xp-boot-e1601042921776.png);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-cont {
+  padding-left: 5em;
+}
+
+.latest-articles {
+  padding-bottom: 1em;
+}
