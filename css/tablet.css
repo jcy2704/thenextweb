@@ -81,5 +81,14 @@
 /*Categories*/
 .categories {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.cat-articles {
+  max-width: 50%;
+  padding: 15px 10px;
+}
+
+.bigger {
+  height: 30vw;
 }

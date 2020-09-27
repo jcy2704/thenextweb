@@ -281,12 +281,13 @@ nav {
   color: #aaaaaa;
 }
 
-.categories article {
+.cat-articles {
   padding-top: 1.3em;
 }
 
-.category-info {
-  padding: 10px;
+.info-art {
+  display: flex;
+  flex-direction: row;
 }
 
 .category-cont {
