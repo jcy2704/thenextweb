@@ -120,7 +120,7 @@ footer ul li {
 }
 
 .cover {
-  height: 192px;
+  height: 29vh;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -153,6 +153,14 @@ footer ul li {
   bottom: 15px;
 }
 
+.header h5 {
+  font-size: 14px;
+}
+
+.header h2 {
+  font-size: 20px;
+}
+
 .header ul li {
   display: inline;
   font-size: 12px;
@@ -169,7 +177,7 @@ footer ul li {
 
 .latest-news {
   padding-top: 25px;
-  padding-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .latest-img {
@@ -243,7 +251,7 @@ footer ul li {
 
 .latest-cont {
   padding-left: 5.5em;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.125rem;
 }
 
@@ -255,7 +263,7 @@ footer ul li {
 
 .latest-articles {
   height: 85px;
-  padding-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 .c-orange {
@@ -275,7 +283,7 @@ footer ul li {
 }
 
 .comp-cont {
-  width: 330px;
+  width: 100%;
   margin: 25px auto;
 }
 
