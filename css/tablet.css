@@ -6,10 +6,21 @@
 
 .topnav {
   display: flex;
+  padding-left: 6.5em;
 }
 
 .nav-list {
   display: inline-block;
+}
+
+.logo {
+  transform: translateY(-16px);
+  bottom: 15px;
+}
+
+.logo-link {
+  background-color: black;
+  padding-top: 50px;
 }
 
 /* Top articles */
@@ -54,7 +65,7 @@
 
 .latest-img {
   width: 100%;
-  height: 100%;
+  height: 70%;
 }
 
 .latest-cont {
@@ -92,4 +103,8 @@
 
 .bigger-img {
   height: 30vw;
+}
+
+.ftr-copyright br {
+  display: none;
 }

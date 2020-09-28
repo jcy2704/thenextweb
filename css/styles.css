@@ -262,8 +262,12 @@ footer ul li {
 }
 
 .latest-articles {
-  height: 85px;
+  clear: left;
   margin-bottom: 1.5em;
+}
+
+.clear-float {
+  clear: both;
 }
 
 .c-orange {
@@ -348,10 +352,15 @@ footer ul li {
   background-color: #fff4f2;
 }
 
+.category-info {
+  padding: 2em 1em;
+  font-size: 14px;
+}
+
 .category-cont img {
   float: right;
   width: 96px;
-  height: 96px;
+  height: 100%;
 }
 
 .category-list ul {
@@ -388,6 +397,11 @@ footer {
   justify-content: center;
   background-color: #131313;
   height: 161px;
+  text-align: center;
+}
+
+.contact-us {
+  width: 70%;
 }
 
 .ftr-copyright {
