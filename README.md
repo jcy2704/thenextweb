@@ -14,7 +14,7 @@ A Clone of The Next Web site using Media Queries for responsive design.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jcy2704/thenextweb/responsive-web/index.html)
+[Live Demo Link](https://rawcdn.githack.com/jcy2704/thenextweb/253f9eed77dfad07b745e590795a8ccc1de4d28e/index.html)
 
 ## Getting Started
 
