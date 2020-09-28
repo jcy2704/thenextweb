@@ -143,7 +143,7 @@ ul {
   padding-right: 10px;
 }
 
-#share {
+.share {
   padding-right: 0;
 }
 
@@ -394,7 +394,7 @@ footer ul li {
   padding: 32.5px 0;
 }
 
-.ftr-copyright img {
+.footer-logo-img {
   width: 37px;
   height: 9px;
 }
