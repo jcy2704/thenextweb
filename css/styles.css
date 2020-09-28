@@ -33,7 +33,7 @@ ul {
 
 .navbar {
   position: fixed;
-  top: 0rem;
+  top: 0;
   z-index: 1;
   background-color: white;
   width: 100vw;
@@ -48,11 +48,29 @@ ul {
   align-items: center;
 }
 
+footer ul li {
+  display: inline;
+  margin: 0 0.2em;
+}
+
+.soc-icons li {
+  font-size: 16px;
+  color: white;
+  background-color: #333;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.category-list li {
+  border-bottom: 1px solid lightgray;
+  padding: 1rem 0;
+}
+
 .topnav ul li {
   display: inline;
   padding-left: 10px;
   font-size: 13px;
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .main-nav {
@@ -84,7 +102,7 @@ ul {
 }
 
 .tnw-conf {
-  background-color: #ffdd33;
+  background-color: #fd3;
   font-size: 12px;
   text-align: left;
   padding: 20px 10px;
@@ -119,17 +137,15 @@ ul {
 }
 
 .world-top-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/modi-india-evs-battery-huge-4.6billion-billion.-money-incentives-796x448.jpeg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/modi-india-evs-battery-huge-4.6billion-billion.-money-incentives-796x448.jpeg);
 }
 
 .cover1 {
-
   background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/quantum_generic-796x417.jpg);
 }
 
 .cover2 {
-
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-27-796x417.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-27-796x417.jpg);
 }
 
 .header {
@@ -243,11 +259,11 @@ ul {
 }
 
 .c-orange {
-  color: #ff4422
+  color: #f42;
 }
 
 .indexco {
-  margin: .5em 0;
+  margin: 0.5em 0;
 }
 
 .divisor {
@@ -255,7 +271,7 @@ ul {
 }
 
 .funding-list ul li {
-  padding: .5em 0;
+  padding: 0.5em 0;
 }
 
 .comp-cont {
@@ -311,7 +327,7 @@ ul {
 }
 
 .light-grey {
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .cat-articles {
@@ -337,14 +353,9 @@ ul {
   padding-left: 1em;
 }
 
-.category-list li {
-  border-bottom: 1px solid lightgray;
-  padding: 1rem 0;
-}
-
 .category-list li::before {
   content: "\2022";
-  color: #ff4422;
+  color: #f42;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -358,25 +369,12 @@ ul {
 }
 
 footer {
-  color: #aaaaaa;
+  color: #aaa;
   font-size: 13px;
-}
-
-footer ul li {
-  display: inline;
-  margin: 0 .2em;
 }
 
 .soc-icons {
   margin-bottom: 25px;
-}
-
-.soc-icons li {
-  font-size: 16px;
-  color: white;
-  background-color: #333333;
-  border-radius: 50%;
-  padding: .5rem;
 }
 
 .ftr-social {
@@ -405,37 +403,37 @@ footer ul li {
 }
 
 .hf-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
 }
 
 .apps-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/adobe-reader-pdf-ai-liquid-mode-368x276.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/adobe-reader-pdf-ai-liquid-mode-368x276.png);
 }
 
 .gear-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_82989e-368x276.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_82989e-368x276.png);
 }
 
 .tech-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/racistAIfeat-368x276.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/racistAIfeat-368x276.jpg);
 }
 
 .creative-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game-368x276.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game-368x276.png);
 }
 
 .podium-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq-368x276.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq-368x276.png);
 }
 
 .insights-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-25-368x276.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-25-368x276.jpg);
 }
 
 .launch-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/2-1-368x276.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/2-1-368x276.jpg);
 }
 
 .distract-img {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-25-at-12.50.26-368x276.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-25-at-12.50.26-368x276.png);
 }

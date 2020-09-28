@@ -1,4 +1,4 @@
-/*Navbar*/
+/* Navbar */
 .ham-menu {
   display: none;
 }
@@ -15,7 +15,7 @@
   display: none;
 }
 
-/*Top articles*/
+/* Top articles */
 .top-articles {
   display: flex;
   justify-content: space-between;
@@ -42,12 +42,13 @@
   padding-left: 10px;
 }
 
-/*Latest news*/
+/* Latest news */
 .latest-articles {
   min-height: 150px;
 }
 
 .latest-news {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-template-rows: repeat(3, 23vmax);
@@ -63,7 +64,7 @@
   padding: 0;
 }
 
-/*funding section*/
+/* funding section */
 .companies-pad {
   display: flex;
   justify-content: space-evenly;
@@ -78,10 +79,10 @@
 .comp-cont {
   width: 100%;
   height: 100%;
-  padding: 10px
+  padding: 10px;
 }
 
-/*Categories*/
+/* Categories */
 .categories {
   display: flex;
   flex-flow: row wrap;
