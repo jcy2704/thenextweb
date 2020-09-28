@@ -394,6 +394,16 @@ footer ul li {
   padding: 32.5px 0;
 }
 
+.ftr-copyright img {
+  width: 37px;
+  height: 9px;
+}
+
+.stackpath {
+  width: 65px;
+  height: 9px;
+}
+
 .hf-img {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
 }

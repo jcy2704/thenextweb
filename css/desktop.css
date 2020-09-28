@@ -74,3 +74,23 @@
 .comp-cont {
   margin-top: 0px;
 }
+
+.cat-articles {
+  width: 33%;
+  padding: 15px 12px;
+  font-size: .8em;
+}
+
+.bigger-img {
+  height: 15vw;
+}
+
+.category-info {
+  padding-left: 12px;
+  padding-top: 10px;
+}
+
+.ftr-copyright br {
+  display: none;
+}
+
