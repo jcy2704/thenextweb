@@ -7,14 +7,35 @@
   <title>The Next Web</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" media="screen and (min-width: 760px)" href="css/tablet.css">
+  <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/desktop.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
 
 <body>
-  <nav>
-    <div class="main-nav flex">
+  <nav class="navbar">
+    <div class="topnav">
       <div>
+        <ul>
+          <li><a class="white" href="#">News</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">AMAs</a></li>
+          <li><a href="#">Spaces</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-nav flex">
+      <div class="logo-cont">
         <a href="#"><img class="logo" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
             alt="tnw logo"></a>
 
@@ -60,6 +81,8 @@
       <div class="flextop">
         <article id="top-img" class="cover white pos-rel world-top-img">
           <header class="header">
+            <img class="logo-header" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
+              alt="tnw logo">
             <h5>
               <a href="#">World</a>
             </h5>
@@ -227,18 +250,22 @@
       </div>
       <!--Funding-->
       <div class="funding">
-        <h2 class="indexco c-orange">
-          <a href="#">
-            <b>Latest funding rounds on Index.co ></b>
-          </a>
-        </h2>
+        <div class="index-flex">
+          <div class="index-header">
+            <h2 class="indexco c-orange">
+              <a href="#">
+                <b>Latest funding rounds on Index.co ></b>
+              </a>
+            </h2>
+          </div>
 
-        <div class="funding-list c-orange">
-          <ul>
-            <li><a href="#">See more</a></li>
-            <li><a href="#">Get updates by email</a></li>
-            <li><a href="#">Add info</a></li>
-          </ul>
+          <div class="funding-list c-orange">
+            <ul>
+              <li><a href="#">See more</a><span class="divisor">|</span></li>
+              <li><a href="#">Get updates by email</a></li>
+              <li><span class="divisor">|</span><a href="#">Add info</a></li>
+            </ul>
+          </div>
         </div>
 
         <div class="companies-pad">
@@ -328,7 +355,37 @@
                     </p>
                   </div>
                 </div>
-                </fdaaa>
+              </a>
+            </div>
+          </div>
+
+          <div class="companies none">
+            <div class="comp-cont">
+              <a href="#">
+                <div class="orange pos-rel">
+                  <img class="company-logo"
+                    src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1113791903755980800%2FpTey_ju_.png&signature=f1e970ac1b6f2b3e03bfcf65c6b74c6c"
+                    alt="">
+                  <h4>Willow</h4>
+                </div>
+                <div class="lorange">
+                  <h4>$55M</h4>
+                  <h5>SERIES C</h5>
+                </div>
+                <div class="pale">
+                  <div class="tags">
+                    <ul>
+                      <li><a href="#"><i class="fas fa-tag"></i> Information Technology</a></li>
+                      <li><a href="#"><i class="fas fa-briefcase"></i> Meritech Capital Partners, +3</a></li>
+                    </ul>
+                  </div>
+                  <div class="bottom-sec">
+                    <p>
+                      Willow Raises $55M in Series C Funding <span class="light-grey">on FinSMEs</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -337,7 +394,7 @@
       <div class="categories">
         <article class="cat-articles">
           <h2 class="c-orange">Hard Fork ></h2>
-          <div class="cover white pos-rel hf-img bigger">
+          <div class="cover white pos-rel hf-img bigger-img">
             <header class="header">
               <h5>
                 <a href="#">MOST POPULAR</a>
@@ -380,7 +437,7 @@
 
         <article class="cat-articles">
           <h2 class="c-orange">Apps ></h2>
-          <div class="cover white pos-rel apps-img bigger">
+          <div class="cover white pos-rel apps-img bigger-img">
             <header class="header">
               <h5>
                 <a href="#">MOST POPULAR</a>
@@ -422,7 +479,7 @@
 
         <article class="cat-articles">
           <h2 class="c-orange">Gear ></h2>
-          <div class="cover white pos-rel gear-img bigger">
+          <div class="cover white pos-rel gear-img bigger-img">
             <header class="header">
               <h5>
                 <a href="#">MOST POPULAR</a>
@@ -463,7 +520,7 @@
 
         <article class="cat-articles">
           <h2 class="c-orange">Tech ></h2>
-          <div class="cover white pos-rel tech-img bigger">
+          <div class="cover white pos-rel tech-img bigger-img">
             <header class="header">
               <h5>
                 <a href="#">MOST POPULAR</a>
@@ -504,7 +561,7 @@
 
         <article class="cat-articles">
           <h2 class="c-orange">Creative ></h2>
-          <div class="cover white pos-rel creative-img bigger">
+          <div class="cover white pos-rel creative-img bigger-img">
             <header class="header">
               <h5>
                 <a href="#">MOST POPULAR</a>
@@ -545,7 +602,7 @@
 
         <article class="cat-articles">
           <h2 class="c-orange">Podium ></h2>
-          <div class="cover white pos-rel podium-img bigger">
+          <div class="cover white pos-rel podium-img bigger-img">
             <header class="header">
               <h5>
                 <a href="#">MOST POPULAR</a>
@@ -586,7 +643,7 @@
 
         <article class="cat-articles">
           <h2 class="c-orange">Insights ></h2>
-          <div class="cover white pos-rel insights-img bigger">
+          <div class="cover white pos-rel insights-img bigger-img">
             <header class="header">
               <h5>
                 <a href="#">MOST POPULAR</a>
@@ -627,7 +684,7 @@
 
         <article class="cat-articles">
           <h2 class="c-orange">Launch ></h2>
-          <div class="cover white pos-rel launch-img bigger">
+          <div class="cover white pos-rel launch-img bigger-img">
             <header class="header">
               <h5>
                 <a href="#">MOST POPULAR</a>
@@ -669,7 +726,7 @@
 
         <article class="cat-articles">
           <h2 class="c-orange">Distract ></h2>
-          <div class="cover white pos-rel distract-img bigger">
+          <div class="cover white pos-rel distract-img bigger-img">
             <header class="header">
               <h5>
                 <a href="#">MOST POPULAR</a>

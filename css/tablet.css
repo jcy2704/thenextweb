@@ -3,6 +3,10 @@
   display: none;
 }
 
+.topnav {
+  display: flex;
+}
+
 .nav-list {
   display: inline-block;
 }
@@ -28,7 +32,7 @@
 
 .top-sub {
   height: 100%;
-  font-size: .65em;
+  font-size: 0.65em;
 }
 
 .flexpad {
@@ -48,7 +52,6 @@
   grid-template-columns: repeat(3, 2fr);
   grid-template-rows: repeat(3, 23vmax);
   column-gap: 20px;
-  height: 100%;
 }
 
 .latest-img {
@@ -89,6 +92,6 @@
   padding: 15px 10px;
 }
 
-.bigger {
+.bigger-img {
   height: 30vw;
 }

@@ -31,12 +31,28 @@ ul {
   display: flex;
 }
 
-nav {
+.navbar {
   position: fixed;
   top: 0rem;
   z-index: 1;
   background-color: white;
   width: 100vw;
+}
+
+.topnav {
+  display: none;
+  background-color: black;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 30px;
+  align-items: center;
+}
+
+.topnav ul li {
+  display: inline;
+  padding-left: 10px;
+  font-size: 13px;
+  color: hsla(0,0%,100%,.6);
 }
 
 .main-nav {
@@ -82,6 +98,7 @@ nav {
 .wrapper {
   padding: 0 20px;
   margin: 0 auto;
+  max-width: 1192px;
 }
 
 .cover {
@@ -91,6 +108,14 @@ nav {
   background-size: cover;
   padding: 15px;
   margin: 8px 0;
+}
+
+.logo-header {
+  display: none;
+  width: 360px;
+  height: 200px;
+  position: relative;
+  top: -90px;
 }
 
 .world-top-img {
@@ -225,6 +250,10 @@ nav {
   margin: .5em 0;
 }
 
+.divisor {
+  display: none;
+}
+
 .funding-list ul li {
   padding: .5em 0;
 }
@@ -232,6 +261,10 @@ nav {
 .comp-cont {
   width: 330px;
   margin: 25px auto;
+}
+
+.none {
+  display: none;
 }
 
 .orange {
