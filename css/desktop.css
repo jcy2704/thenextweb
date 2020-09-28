@@ -46,7 +46,7 @@
 /* Latest News */
 .latest-news {
   grid-template-columns: repeat(4, 2fr);
-  grid-template-rows: repeat(2, 215px);
+  grid-template-rows: repeat(2, 230px);
 }
 
 /* Funding */

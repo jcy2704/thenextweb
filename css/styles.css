@@ -274,7 +274,8 @@ footer ul li {
   margin: 0.5em 0;
 }
 
-.divisor {
+.divisor,
+.none {
   display: none;
 }
 
@@ -285,10 +286,6 @@ footer ul li {
 .comp-cont {
   width: 100%;
   margin: 25px auto;
-}
-
-.none {
-  display: none;
 }
 
 .orange {
