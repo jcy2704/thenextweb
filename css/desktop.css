@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.topnav {
+  padding-left: 1.5em;
+}
+
 @media (min-width: 1214px) {
   .nav-hid {
     display: inline;
@@ -16,7 +20,7 @@
   .nav-list {
     position: absolute;
     top: 15px;
-    left: 120px;
+    left: 10px;
   }
 }
 
@@ -27,7 +31,7 @@
 
 @media (min-width: 1214px) {
   .tnw-conf {
-    padding: 5px 120px;
+    padding: 5px 10px;
   }
 }
 
@@ -88,4 +92,8 @@
 .category-info {
   padding-left: 12px;
   padding-top: 10px;
+}
+
+.logo {
+  display: none;
 }
