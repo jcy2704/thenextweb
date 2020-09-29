@@ -128,6 +128,10 @@ footer ul li {
   margin: 8px 0;
 }
 
+.bigger-img {
+  height: 60vw;
+}
+
 .logo-header {
   display: none;
   width: 360px;
@@ -257,8 +261,16 @@ footer ul li {
 
 .latest-cont ul li {
   display: inline;
-  font-size: 12px;
   padding-right: 5px;
+}
+
+.price {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.discount {
+  font-size: 16px;
 }
 
 .latest-articles {
@@ -353,14 +365,14 @@ footer ul li {
 }
 
 .category-info {
-  padding: 2em 1em;
+  padding: 1em 1em;
   font-size: 14px;
 }
 
 .category-cont img {
   float: right;
   width: 96px;
-  height: 100%;
+  height: 96px;
 }
 
 .category-list ul {

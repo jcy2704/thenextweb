@@ -7,32 +7,26 @@
   padding-left: 0;
 }
 
+.logo-cont {
+  width: 80%;
+  position: relative;
+}
+
+.nav-list {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
 @media (min-width: 1214px) {
   .nav-hid {
     display: inline;
-  }
-
-  .logo-cont {
-    width: 80%;
-    position: relative;
-  }
-
-  .nav-list {
-    position: absolute;
-    top: 15px;
-    left: 10px;
   }
 }
 
 /* Top Articles */
 .tnw-conf {
-  padding: 5px 110px;
-}
-
-@media (min-width: 1214px) {
-  .tnw-conf {
-    padding: 5px 10px;
-  }
+  padding: 5px 10px;
 }
 
 .top-articles {
@@ -45,6 +39,8 @@
 
 .logo-header {
   display: block;
+  position: relative;
+  top: -220px;
 }
 
 /* Latest News */
@@ -64,15 +60,6 @@
   .none {
     display: block;
   }
-}
-
-.funding-list ul li {
-  display: inline-block;
-}
-
-.divisor {
-  display: inline-block;
-  padding: 0 10px;
 }
 
 .comp-cont {

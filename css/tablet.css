@@ -59,7 +59,7 @@
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  grid-template-rows: repeat(3, 23vmax);
+  grid-template-rows: repeat(3, 31vmax);
   column-gap: 20px;
 }
 
@@ -107,4 +107,15 @@
 
 .ftr-copyright br {
   display: none;
+}
+
+@media (min-width: 1023px) {
+  .funding-list ul li {
+    display: inline-block;
+  }
+
+  .divisor {
+    display: inline-block;
+    padding: 0 10px;
+  }
 }
