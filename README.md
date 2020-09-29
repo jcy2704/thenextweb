@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Smashing Magazine
+# The Next Web
 
-A Smashing Magazine Heatmap based on visual hierarchy. Grid and Flexbox used for most of the positioning on the page.
+A Clone of The Next Web site using Media Queries for responsive design.
 
 ![screenshot](app_screenshot.png)
 
@@ -14,11 +14,11 @@ A Smashing Magazine Heatmap based on visual hierarchy. Grid and Flexbox used for
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jcy2704/smashing-magazine/design-ux/index.html)
+[Live Demo Link](https://rawcdn.githack.com/jcy2704/thenextweb/e3831e1bef723c033d97db7daa75e5eb59a0a0f0/index.html)
 
 ## Getting Started
 
-**This project was created for the sole purpose of understand design practices and UX. The following will be instructions on how you can see the project on your own computer.**
+**This project was created for the sole purpose of understanding media queries and responsive design. The following will be instructions on how you can see the project on your own computer.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -56,7 +56,7 @@ Linters errors
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jcy2704/smashing-magazine/issues).
+Feel free to check the [issues page](https://github.com/jcy2704/thenextweb/issues).
 
 ## Show your support
 

@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.sm-container {
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.white {
+  color: white;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  width: 100vw;
+}
+
+.topnav {
+  display: none;
+  background-color: black;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 30px;
+  align-items: center;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 0.2em;
+}
+
+.soc-icons li {
+  font-size: 16px;
+  color: white;
+  background-color: #333;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.category-list li {
+  border-bottom: 1px solid lightgray;
+  padding: 1rem 0;
+}
+
+.topnav ul li {
+  display: inline;
+  padding-left: 10px;
+  font-size: 13px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.main-nav {
+  justify-content: space-between;
+  height: 48px;
+}
+
+.nav-list {
+  display: none;
+  width: 80%;
+}
+
+.nav-list ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.main-nav i {
+  font-size: 24px;
+  padding: 10px;
+  border-left: 1px solid grey;
+  height: 100%;
+}
+
+.logo {
+  background-color: black;
+  width: 106px;
+  padding: 15px;
+}
+
+.tnw-conf {
+  background-color: #fd3;
+  font-size: 12px;
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.top-articles {
+  margin-top: 80px;
+  padding-bottom: 45px;
+}
+
+.wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1192px;
+}
+
+.cover {
+  height: 29vh;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  padding: 15px;
+  margin: 8px 0;
+}
+
+.bigger-img {
+  height: 60vw;
+}
+
+.logo-header {
+  display: none;
+  width: 360px;
+  height: 200px;
+  position: relative;
+  top: -90px;
+}
+
+.world-top-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/modi-india-evs-battery-huge-4.6billion-billion.-money-incentives-796x448.jpeg);
+}
+
+.cover1 {
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/quantum_generic-796x417.jpg);
+}
+
+.cover2 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-27-796x417.jpg);
+}
+
+.header {
+  position: absolute;
+  bottom: 15px;
+}
+
+.header h5 {
+  font-size: 14px;
+}
+
+.header h2 {
+  font-size: 20px;
+}
+
+.header ul li {
+  display: inline;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.share {
+  padding-right: 0;
+}
+
+.title-news {
+  font-size: 28px;
+}
+
+.latest-news {
+  padding-top: 25px;
+  margin-bottom: 45px;
+}
+
+.latest-img {
+  float: left;
+  width: 75px;
+  height: 75px;
+}
+
+.latest-art-img {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/windows-xp-boot-e1601042921776.png);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img1 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Metal-Gear-Solid-516x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img2 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/TNW-Dotted-Sign-540x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img3 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/27162728588_a488cbc4f9_k-405x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img4 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-26-516x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img5 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-25-at-12.50.26-540x250.png);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-art-img6 {
+  display: block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/zeroaavia-plane-hydrogen-flight-ev-travel-airplane-aerospace-480x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.latest-cont {
+  padding-left: 5.5em;
+  font-size: 14px;
+  line-height: 1.125rem;
+}
+
+.latest-cont ul li {
+  display: inline;
+  padding-right: 5px;
+}
+
+.price {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.discount {
+  font-size: 16px;
+}
+
+.latest-articles {
+  clear: left;
+  margin-bottom: 1.5em;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.c-orange {
+  color: #f42;
+}
+
+.indexco {
+  margin: 0.5em 0;
+}
+
+.divisor,
+.none {
+  display: none;
+}
+
+.funding-list ul li {
+  padding: 0.5em 0;
+}
+
+.comp-cont {
+  width: 100%;
+  margin: 25px auto;
+}
+
+.orange {
+  background-color: #f44120;
+}
+
+.orange h4 {
+  font-size: 18px;
+  padding: 0.8em 1em 0.8em 4.5em;
+  color: white;
+}
+
+.lorange {
+  background-color: #ffebe7;
+  font-size: 18px;
+  padding: 0.5em 1em 0.8em 4.5em;
+}
+
+.lorange h5 {
+  font-size: 11px;
+}
+
+.company-logo {
+  position: absolute;
+  width: 60px;
+  top: 12px;
+  left: 12px;
+}
+
+.pale {
+  background-color: #fffaf8;
+}
+
+.tags {
+  font-size: 15px;
+  line-height: 2em;
+  padding: 15px;
+}
+
+.bottom-sec {
+  border-top: 1px solid #f44120;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.light-grey {
+  color: #aaa;
+}
+
+.cat-articles {
+  padding-top: 1.3em;
+}
+
+.info-art {
+  display: flex;
+  flex-direction: row;
+}
+
+.category-cont {
+  background-color: #fff4f2;
+}
+
+.category-info {
+  padding: 1em 1em;
+  font-size: 14px;
+}
+
+.category-cont img {
+  float: right;
+  width: 96px;
+  height: 96px;
+}
+
+.category-list ul {
+  padding-left: 1em;
+}
+
+.category-list li::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.deals-header {
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 1.5em 0;
+}
+
+footer {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.soc-icons {
+  margin-bottom: 25px;
+}
+
+.ftr-social {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #131313;
+  height: 161px;
+  text-align: center;
+}
+
+.contact-us {
+  width: 70%;
+}
+
+.ftr-copyright {
+  height: 122px;
+  background-color: black;
+  text-align: center;
+  padding: 32.5px 0;
+}
+
+.footer-logo-img {
+  width: 37px;
+  height: 9px;
+}
+
+.stackpath {
+  width: 65px;
+  height: 9px;
+}
+
+.hf-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
+}
+
+.apps-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/adobe-reader-pdf-ai-liquid-mode-368x276.png);
+}
+
+.gear-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_82989e-368x276.png);
+}
+
+.tech-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/racistAIfeat-368x276.jpg);
+}
+
+.creative-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game-368x276.png);
+}
+
+.podium-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq-368x276.png);
+}
+
+.insights-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/1-25-368x276.jpg);
+}
+
+.launch-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/2-1-368x276.jpg);
+}
+
+.distract-img {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-25-at-12.50.26-368x276.png);
+}
